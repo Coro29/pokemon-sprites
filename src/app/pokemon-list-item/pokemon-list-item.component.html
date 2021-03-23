@@ -1,0 +1,5 @@
+<div *ngIf="pokemon">
+  <img src={{pokemon.sprites[0].src}} alt="{{pokemon.nDex}}_{{pokemon.name}}_{{pokemon.sprites[0].gameNo}}" />
+  <br />
+  <span>{{pokemon.nDex}} | {{pokemon.name}}</span>
+</div>

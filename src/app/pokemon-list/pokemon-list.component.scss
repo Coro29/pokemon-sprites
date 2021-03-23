@@ -1,0 +1,8 @@
+:host {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+    border: 1px solid black;
+    width: 75%;
+    margin: auto;
+}
