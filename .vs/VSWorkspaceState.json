@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\home",
+    "\\src\\app\\home\\pokemon-list",
+    "\\src\\app\\home\\pokemon-list-item",
+    "\\src\\app\\navbar"
+  ],
+  "SelectedNode": "\\src\\app\\home\\pokemon-list-item\\pokemon-list-item.component.scss",
+  "PreviewInSolutionExplorer": false
+}

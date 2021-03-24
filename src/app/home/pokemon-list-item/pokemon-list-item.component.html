@@ -1,0 +1,7 @@
+<div *ngIf="pokemon">
+  <div class="nameplate">
+    <span>{{pokemon.nDex}} {{pokemon.name}}</span>
+  </div>
+  <br />
+  <img src={{pokemon.sprites[0].src}} alt="{{pokemon.nDex}}_{{pokemon.name}}_{{pokemon.sprites[0].gameNo}}" />
+</div>

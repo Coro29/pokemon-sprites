@@ -1,0 +1,36 @@
+@use '../../../colours';
+
+:host {
+  border-radius: 1em;
+  border-collapse: collapse;
+  display: flex;
+  background-color: colours.$WHITE;
+}
+
+div {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+
+  img {
+    flex: 1 0 auto;
+  }
+}
+
+.nameplate {
+  flex: 0;
+  border: 3px solid black;
+  border-radius: 0.5em;
+  background-color: colours.$RED;
+
+  span {
+    margin: 0px 1em;
+    border: 2px solid colours.$LIGHT-RED;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    background-color: colours.$WHITE;
+    padding: 0.5em;
+    font-weight: bold;
+    color: colours.$DARK-GREY;
+  }
+}

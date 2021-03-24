@@ -1,0 +1,25 @@
+<div class="list-control-outer">
+  <div class="control-buttons">
+    <div class="list-control-button" (click)="toggleFilter()">
+      <span>Generations</span>
+    </div>
+    <div class="list-control-button">
+      <span>Region</span>
+    </div>
+  </div>
+
+  <div class="control-dropdown" *ngIf="hidden">
+    <div class="control-generations">
+      <form>
+        <fieldset>
+          <div class="checkboxes" *ngFor="let gen of generations">
+            <input type="checkbox" name="gen" id="gen{{gen}}" value="{{gen}}" />
+            <label for="gen{{gen}}">{{gen}}</label>
+          </div>
+          <br />
+          <button type="submit">GO</button>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
